@@ -6,7 +6,7 @@
         <div class="flex items-center flex-col justify-center lg:flex-row py-6 px-6 md:px-24 md:py-20 lg:py-6 gap-16 lg:gap-28">
             
             <div class="w-full lg:w-1/2">
-                <h1 class="py-4 text-2xl font-extrabold text-gray-800">Author’s kit – Instructions and Templates</h1>
+                <h1 class="py-4 text-2xl font-extrabold text-gray-800">Submission Type: Full Paper</h1>
                 <p class="py-4 text-base text-gray-800">Please download the template paper here: <a href="doc/Full Paper Template ICAESS 2022.docx"><b>Microsoft Word Proceedings Templates (zip)</b></a>
     
                     <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION</b> via <b><a href="https://edas.info/N29942" target="_blank" >EDAS</a> </b></p>

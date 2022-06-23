@@ -17,11 +17,11 @@
           <p class="my-3 text-lg sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Politeknik Negeri Batam, Indonesia - 5 October 2022</p>
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
             <span class="block xl:inline">THE 4TH INTERNATIONAL</span>
-            <span class="block text-indigo-600 xl:inline">CONFERENCE ON APPLIED ECONOMICS AND SOCIAL SCIENCE</span>
+            <span class="block text-indigo-600 xl:inline">CONFERENCE ON APPLIED ECONOMICS AND SOCIAL SCIENCE (ICAESS)</span>
           </h1>
 
           
-          <p class="my-3 text-2xl text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-3xl lg:mx-0">Responsing the Metaverse Era for Future Applied Technology.</p>
+          <p class="my-3 text-2xl uppercase text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-3xl lg:mx-0">Responsing the Metaverse Era for Future Applied Technology.</p>
           
 
           <div
