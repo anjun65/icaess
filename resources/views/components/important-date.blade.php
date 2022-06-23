@@ -20,8 +20,8 @@
                         <li>an archive file (e.g. zip, tar.gz) containing the both a PDF copy of your paper and LaTeX or Word source material prepared according to the above guidelines.</li>
                     </ol>
 
-                    <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION</b> via <b><a href="https://edas.info/N29938" target="_blank" >EDAS</a> </b></p>
-                    <a href="https://edas.info/N29938" target="_blank" ><img src="img/edas.png" alt="" class="h-16 w-auto mb-4"></a>
+                    <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION</b> via <b><a href="https://edas.info/N29942" target="_blank" >EDAS</a> </b></p>
+                    <a href="https://edas.info/N29942" target="_blank" ><img src="img/edas.png" alt="" class="h-16 w-auto mb-4"></a>
                 </p>
 
             </div>
