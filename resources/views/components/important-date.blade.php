@@ -6,9 +6,20 @@
         <div class="flex items-center flex-col justify-center lg:flex-row py-6 px-6 md:px-24 md:py-20 lg:py-6 gap-16 lg:gap-28">
             
             <div class="w-full lg:w-1/2">
-                <h1 class="py-4 text-2xl font-extrabold text-gray-800">Submission Type: Full Paper</h1>
-                <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION</b> via <b><a href="https://edas.info/" target="_blank" >EDAS</a> </b></p>
-                <a href="https://edas.info/" target="_blank" ><img src="img/edas.png" alt="" class="h-16 w-auto mb-4"></a>
+                <h1 class="py-4 text-2xl font-extrabold text-gray-800">Author’s kit – Instructions and Templates</h1>
+                <p class="py-4 text-base text-gray-800">Papers must be formatted using the Springer LNICST Authors’ Kit.<br/>Instructions and templates are available from <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"><b>Springer’s LNICST homepage</b></a> :
+                    <ol style="list-style-type: disc;">
+                        <li><a href="doc/Springer_Latex_Template.zip"><b>LaTeX2e Proceedings Templates (zip)</b></a></li>
+                        <li><a href="doc/Springer_DOCX_Template.zip"><b>Microsoft Word Proceedings Templates (zip)</b></a></li>
+                    </ol>
+                    <br/>
+                    Please make sure that your paper adheres to the format as specified in the instructions and templates.<br/><br/>
+                    When uploading the camera-ready copy of your paper, please be sure to upload both:<br/>
+                    <ol style="list-style-type: disc;">
+                        <li>a PDF copy of your paper formatted according to the above templates, and</li>
+                        <li>an archive file (e.g. zip, tar.gz) containing the both a PDF copy of your paper and LaTeX or Word source material prepared according to the above guidelines.</li>
+                    </ol>
+                </p>
 
             </div>
 
