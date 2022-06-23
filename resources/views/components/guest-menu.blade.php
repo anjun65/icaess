@@ -32,22 +32,22 @@
                         <x-slot name="content">
                             <!-- Account Management -->
                             <div class="block px-4 py-2 text-xs text-gray-400">
-                                {{ __('Committess') }}
+                                {{ __('Committees') }}
                             </div>
 
                             <x-jet-dropdown-link href="{{ route('technical') }}">
-                                {{ __('Technical Program Committee') }}
+                                {{ __('Technical Program Committees') }}
                             </x-jet-dropdown-link>
 
-                            <x-jet-dropdown-link href="{{ route('local') }}">
+                            {{-- <x-jet-dropdown-link href="{{ route('local') }}">
                                 {{ __('Organizing Committees') }}
-                            </x-jet-dropdown-link>
+                            </x-jet-dropdown-link> --}}
                         </x-slot>
                     </x-jet-dropdown>
 
-                    <x-jet-nav-link href="{{ route('paper') }}" :active="request()->routeIs('paper')">
+                    {{-- <x-jet-nav-link href="{{ route('paper') }}" :active="request()->routeIs('paper')">
                         {{ __('Accepted Paper & Poster') }}
-                    </x-jet-nav-link>
+                    </x-jet-nav-link> --}}
                     <x-jet-nav-link href="{{ route('conference') }}" :active="request()->routeIs('conference')">
                         {{ __('Virtual Conference') }}
                     </x-jet-nav-link>
@@ -79,16 +79,16 @@
             </x-jet-responsive-nav-link>
 
             <x-jet-responsive-nav-link href="{{ route('technical') }}" :active="request()->routeIs('technical')">
-                {{ __('Technical Program Committee') }}
+                {{ __('Technical Program Committees') }}
             </x-jet-responsive-nav-link>
 
-            <x-jet-responsive-nav-link href="{{ route('local') }}" :active="request()->routeIs('local')">
+            {{-- <x-jet-responsive-nav-link href="{{ route('local') }}" :active="request()->routeIs('local')">
                 {{ __('Organizing Committees') }}
-            </x-jet-responsive-nav-link>
+            </x-jet-responsive-nav-link> --}}
 
-            <x-jet-responsive-nav-link href="{{ route('paper') }}" :active="request()->routeIs('paper')">
+            {{-- <x-jet-responsive-nav-link href="{{ route('paper') }}" :active="request()->routeIs('paper')">
                 {{ __('Accepted Paper & Poster') }}
-            </x-jet-responsive-nav-link>
+            </x-jet-responsive-nav-link> --}}
             
             <x-jet-responsive-nav-link href="{{ route('conference') }}" :active="request()->routeIs('conference')">
                 {{ __('Virtual Conference') }}

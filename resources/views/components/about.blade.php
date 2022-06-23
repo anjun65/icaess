@@ -131,7 +131,7 @@
 
                 <div class="card w-full pl-2 bg-base-100 shadow-xl">
                     <div class="card-body">
-                        <h2 class="card-title font-bold">MANAGEMENT TRACK</h2>
+                        <h2 class="card-title font-bold">MANAGEMENTS TRACK</h2>
                         <ol style="list-style-type: disc;">
                             <li>Sharia Management</li>
                             <li>Business Administration</li>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="card w-full pl-2 bg-base-100 shadow-xl">
                     <div class="card-body">
-                        <h2 class="card-title font-bold">SOCIAL SCIENCE TRACK</h2>
+                        <h2 class="card-title font-bold">SOCIAL SCIENCES TRACK</h2>
                         <ol style="list-style-type: disc;">
                             <li>Social Welfare</li>
                             <li>International Relations</li>

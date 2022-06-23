@@ -31,8 +31,8 @@
       <div>
         <div class="card w-full bg-base-100 shadow-xl h-full">
           <div class="card-body">
-            <h2 class="font-bold text-center">EARLY BIRD</h2>
-            <b>For The Fast One</b>
+            <h2 class="font-bold text-center">Late Registration</h2>
+            <br/>
               <li>International Regular	USD 175</li>
               <li>Indonesia Regular	Rp. 1.500.000</li>
               <li>International Student	USD 120</li>
