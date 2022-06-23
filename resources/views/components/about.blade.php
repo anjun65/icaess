@@ -74,7 +74,7 @@
             With the development of deep learning technology, natural generation models, VR/AR/MR/XR technology, along with 5G and WiFi6 communication technologies, Metaverse is strengthened by a variety of factors, from mobile-based always connected, to virtual currency for meta-economics. Without the limitations of space-time, the Metaverse offers us endless possibilities.
             There are also many opportunities to develop technologies that supports metaverse, like the electronic components, the mechanical system, the applications program, and the implementation in business. We invite you to ICAE/ICAESS 2022 to discuss about this very opportunities. We look forward to meeting you at ICAE/ICAESS 2022!</p>
             <div class="grid gap-8 mt-10 md:mt-20 md:grid-cols-2">
-                <div class="card w-full pl-2 bg-base-100 shadow-xl">
+                <div class="card w-full pl-2 shadow-xl">
                     <div class="card-body">
                         <h2 class="card-title font-bold">ECONOMICS TRACK</h2>
                         <ol style="list-style-type: disc;">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
 
-                <div class="card w-full pl-2 bg-base-100 shadow-xl">
+                <div class="card w-full pl-2 shadow-xl">
                     <div class="card-body">
                         <h2 class="card-title font-bold">ACCOUNTINGS TRACK</h2>
                         <ol style="list-style-type: disc;">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="card w-full pl-2 bg-base-100 shadow-xl">
+                <div class="card w-full pl-2 shadow-xl">
                     <div class="card-body">
                         <h2 class="card-title font-bold">MANAGEMENTS TRACK</h2>
                         <ol style="list-style-type: disc;">
@@ -164,7 +164,7 @@
                         </ol>
                     </div>
                 </div>
-                <div class="card w-full pl-2 bg-base-100 shadow-xl">
+                <div class="card w-full pl-2 shadow-xl">
                     <div class="card-body">
                         <h2 class="card-title font-bold">SOCIAL SCIENCES TRACK</h2>
                         <ol style="list-style-type: disc;">
