@@ -97,7 +97,7 @@
                         </ol>
                     </div>
                 </div>
-                <div class="card w-full pl-2 max-h-48 shadow-xl">
+                <div class="card w-full pl-2 shadow-xl">
                     <div class="card-body">
                         <h2 class="card-title font-bold">SOCIAL SCIENCES TRACK</h2>
                         <ol style="list-style-type: disc;">
