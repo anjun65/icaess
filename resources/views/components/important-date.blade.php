@@ -33,7 +33,7 @@
                             </div>
                         </td>
                         <td class="p-6">
-                            <p class="text-sm font-medium leading-none text-gray-800">29 July 2022</p>
+                            <p class="text-sm font-medium leading-none text-gray-800">8 August 2022</p>
                         </td>
                     </tr>
 
