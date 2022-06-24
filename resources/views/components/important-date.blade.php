@@ -9,7 +9,7 @@
                 <h1 class="py-4 text-2xl font-extrabold text-gray-800">Submission Type: Full Paper</h1>
                 <p class="py-4 text-base text-gray-800">Please download the template paper here: <a href="doc/Full Paper Template ICAESS 2022.docx"><b>Microsoft Word Proceedings Templates (zip)</b></a>
     
-                    <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION</b> via <b><a href="https://edas.info/N29942" target="_blank" >EDAS</a> </b></p>
+                    <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION FULL PAPER/POSTER</b> via <b><a href="https://edas.info/N29942" target="_blank" >EDAS</a> </b></p>
                     <a href="https://edas.info/N29942" target="_blank" ><img src="img/edas.png" alt="" class="h-16 w-auto mb-4"></a>
                 </p>
 
