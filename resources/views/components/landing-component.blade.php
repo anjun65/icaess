@@ -78,6 +78,15 @@
               <a href="#" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-sm md:px-10"> Proceeding 2021 </a>
             </div> --}}
           </div>
+
+          <div class="mt-7 grid grid-cols-3 gap-4">
+              <div><img src="img/EAI-Logo.png" alt="" class="h-16 w-auto mb-4"/></div>
+              <div><img src="img/EAI-Logo-CCER.png" alt="" class="h-16 w-auto mb-4"/></div>
+              <div><img src="img/EAI-Logo-EUDL.png" alt="" class="h-16 w-auto mb-4"/></div>
+          </div>
+          
+          
+          
         </div>
         
       </main>

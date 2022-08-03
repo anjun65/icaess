@@ -21,9 +21,6 @@ Route::get('/register', function () {
     return view('404');
 })->name('register');
 
-Route::get('/login', function () {
-    return view('404');
-})->name('login');
 
 
 Route::get('/technical-program-committe', function () {
