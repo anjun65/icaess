@@ -3432,6 +3432,15 @@ body[dir="rtl"] .checkbox:checked,
 .w-24 {
   width: 6rem;
 }
+.w-36 {
+  width: 9rem;
+}
+.w-32 {
+  width: 8rem;
+}
+.w-28 {
+  width: 7rem;
+}
 .min-w-0 {
   min-width: 0px;
 }
@@ -3873,6 +3882,9 @@ body[dir="rtl"] .checkbox:checked,
 }
 .pb-8 {
   padding-bottom: 2rem;
+}
+.pr-7 {
+  padding-right: 1.75rem;
 }
 .pl-2 {
   padding-left: 0.5rem;
