@@ -17,12 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::get('/register', function () {
-    return view('404');
-})->name('register');
-
-
-
 Route::get('/technical-program-committe', function () {
     return view('committes');
 })->name('technical');
@@ -47,4 +41,15 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+});
+
+
+Route::middleware([
+    'admin',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('admin/dashboard', function () {
+        return view('admin');
+    })->name('admin');
 });
