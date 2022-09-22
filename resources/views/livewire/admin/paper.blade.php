@@ -11,7 +11,7 @@
             </div>
 
             <div class="space-x-2 flex items-center">
-                <x-input.group borderless paddingless for="perPage" label="Halaman">
+                <x-input.group borderless paddingless for="perPage" label="Page">
                     <x-input.select wire:model="perPage" id="perPage">
                         <option value="10">10</option>
                         <option value="25">25</option>
@@ -156,9 +156,9 @@
             </x-slot>
 
             <x-slot name="footer">
-                <x-button.secondary wire:click="$set('showDeleteModal', false)">Batal</x-button.secondary>
+                <x-button.secondary wire:click="$set('showDeleteModal', false)">Cancel</x-button.secondary>
 
-                <x-button.primary type="submit">Hapus</x-button.primary>
+                <x-button.primary type="submit">Delete</x-button.primary>
             </x-slot>
         </x-modal.confirmation>
     </form>
