@@ -55,10 +55,15 @@
                 </div>
             </div>
 
-            <x-jet-nav-link href="{{ route('login') }}" :active="request()->routeIs('login')" class="hidden sm:flex sm:items-center sm:ml-6 px-10">
-                    {{ __('Login') }}
-            </x-jet-nav-link>
-
+            @if (Auth::id())
+                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" class="hidden sm:flex sm:items-center sm:ml-6 px-10">
+                    {{ __('Dashboard') }}
+                </x-jet-nav-link>
+            @else
+                <x-jet-nav-link href="{{ route('login') }}" :active="request()->routeIs('login')" class="hidden sm:flex sm:items-center sm:ml-6 px-10">
+                        {{ __('Login') }}
+                </x-jet-nav-link>
+            @endif
             <!-- Hamburger -->
             <div class="-mr-2 flex items-center sm:hidden">
                 <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition">
@@ -93,6 +98,16 @@
             <x-jet-responsive-nav-link href="{{ route('conference') }}" :active="request()->routeIs('conference')">
                 {{ __('Virtual Conference') }}
             </x-jet-responsive-nav-link>
+
+            @if (Auth::id())
+                <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                {{ __('Dashboard') }}
+            </x-jet-responsive-nav-link>
+            @else
+                <x-jet-responsive-nav-link href="{{ route('login') }}" :active="request()->routeIs('login')">
+                {{ __('Login') }}
+            </x-jet-responsive-nav-link>
+            @endif
 
             {{-- <x-jet-responsive-nav-link href="{{ route('register') }}" :active="request()->routeIs('register')">
                 {{ __('Register') }}
