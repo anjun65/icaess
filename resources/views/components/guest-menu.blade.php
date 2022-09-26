@@ -52,6 +52,9 @@
                         {{ __('Virtual Conference') }}
                     </x-jet-nav-link>
 
+                    <x-jet-nav-link href="{{ route('registration') }}" :active="request()->routeIs('registration')">
+                        {{ __('Registration') }}
+                    </x-jet-nav-link>
                 </div>
             </div>
 
@@ -97,6 +100,10 @@
             
             <x-jet-responsive-nav-link href="{{ route('conference') }}" :active="request()->routeIs('conference')">
                 {{ __('Virtual Conference') }}
+            </x-jet-responsive-nav-link>
+
+            <x-jet-responsive-nav-link href="{{ route('registration') }}" :active="request()->routeIs('registration')">
+                {{ __('Registration') }}
             </x-jet-responsive-nav-link>
 
             @if (Auth::id())

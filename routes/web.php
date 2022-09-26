@@ -33,6 +33,10 @@ Route::get('/virtual-conference', function () {
     return view('virtual-conference');
 })->name('conference');
 
+Route::get('/registration', function () {
+    return view('registration');
+})->name('registration');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
