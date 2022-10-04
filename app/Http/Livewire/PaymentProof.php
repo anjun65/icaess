@@ -137,42 +137,60 @@ class PaymentProof extends Component
     {
         
         $item = Payment::findorFail($id);
-        // $user = User::findorFail($item->user_id)->toArray();
-        $paper = Paper::where('user_id', $item->user_id)->get();
-        $poster = Poster::where('user_id', $item->user_id)->get();
 
-        // dd($paper);
-        // $user = Paper::findorFail($item->user_id)->toArray();
+        if ($item->user_id == Auth::id()){
+            // $user = User::findorFail($item->user_id)->toArray();
+            $paper = Paper::where('user_id', $item->user_id)->get();
+            $poster = Poster::where('user_id', $item->user_id)->get();
 
-        if ($item->verification_status == 'Approved'){
-            $berkas = "Kwitansi";
-        }
-        else {
+            // dd($paper);
+            // $user = Paper::findorFail($item->user_id)->toArray();
             $berkas = "Invoice";
+
+            view()->share([
+                'item'=> $item,
+                'paper'=> $paper,
+                'poster'=> $poster,
+            ]);
+
+            $pdfContent = PDF::loadView('pdf.invoice',[
+                'item'=> $item,
+                'papers'=> $paper,
+                'posters'=> $poster,
+            ])->setPaper('a4', 'portrait')->output();
+            return response()->streamDownload(
+                fn () => print($pdfContent),
+                $berkas."000".$item->id.".pdf"
+            );
         }
-
-        view()->share([
-            'item'=> $item,
-            'paper'=> $paper,
-            'poster'=> $poster,
-        ]);
-
-        $pdfContent = PDF::loadView('pdf.invoice',[
-            'item'=> $item,
-            'papers'=> $paper,
-            'posters'=> $poster,
-        ])->setPaper('a4', 'portrait')->output();
-        return response()->streamDownload(
-            fn () => print($pdfContent),
-            $berkas."000".$item->id.".pdf"
-        );
-        
     }
     
-    public function download_surat($id) 
+    public function kwitansi($id) 
     {
-        $download = Payment::findorFail($id);
-        return response()->download(storage_path('app/'.$download->upload_dokumen));
+        $item = Payment::findorFail($id);
+        if ($item->verification_status == 'Approved'){
+            
+            $paper = Paper::where('user_id', $item->user_id)->get();
+            $poster = Poster::where('user_id', $item->user_id)->get();
+
+            $berkas = "Kwitansi";
+
+            view()->share([
+                'item'=> $item,
+                'paper'=> $paper,
+                'poster'=> $poster,
+            ]);
+
+            $pdfContent = PDF::loadView('pdf.invoice',[
+                'item'=> $item,
+                'papers'=> $paper,
+                'posters'=> $poster,
+            ])->setPaper('a4', 'portrait')->output();
+            return response()->streamDownload(
+                fn () => print($pdfContent),
+                $berkas."000".$item->id.".pdf"
+            );
+        }
     }
 
     public function rejected($id)
