@@ -74,9 +74,9 @@
               <a href="https://www.scitepress.org/ProceedingsDetails.aspx?ID=iC/Y0qO1Jm4=&t=1" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-sm md:px-10">ICAESS Proceeding 2020 </a>
             </div>
 
-            {{-- <div class="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-sm md:px-10"> Proceeding 2021 </a>
-            </div> --}}
+            <div class="mt-3 sm:mt-0 sm:ml-3">
+              <a href="https://www.scitepress.org/ProceedingsDetails.aspx?ID=/eLoNn/rW6s=&t=1" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-sm md:px-10">ICAESS Proceeding 2021 </a>
+            </div>
           </div>
 
           <div class="mt-7 grid grid-cols-3 gap-4">
