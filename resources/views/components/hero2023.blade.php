@@ -39,9 +39,9 @@
             <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
                 <div>
                     <h1 class="text-4xl text-center tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
-                       <span class="block xl:inline">THE 5TH INTERNATIONAL</span><br/>
-                       <span class="block text-slate-600 xl:inline">CONFERENCE ON APPLIED</span> <br/>
-                       <span class="block text-slate-600 xl:inline">ECONOMICS AND SOCIAL SCIENCE (ICAESS)</span>
+                       <span class="xl:inline">THE 5TH INTERNATIONAL</span><br/>
+                       <span class="text-slate-600 xl:inline">CONFERENCE ON APPLIED</span> <br/>
+                       <span class="text-slate-600 xl:inline">ECONOMICS AND SOCIAL SCIENCE (ICAESS)</span>
                      </h1>
                     
                     <div class="grid grid-cols-1 gap-4 m-8">
@@ -292,7 +292,7 @@
           days: "00",
           distance: 0,
           countdown: null,
-          beerTime: new Date("Oct 8, 2023 00:00:00").getTime(),
+          beerTime: new Date("Nov 8, 2023 00:00:00").getTime(),
           now: new Date().getTime(),
           
           start: function () {
