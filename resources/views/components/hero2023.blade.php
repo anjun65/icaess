@@ -49,7 +49,7 @@
                      </h2>
                     
                     
-                    {{-- <div class="grid grid-cols-1 gap-4 m-8">
+                    <div class="grid grid-cols-1 gap-4 m-8">
                         <div
                           class="items-center justify-center mx-auto"
                           x-data="beer()"
@@ -90,7 +90,7 @@
                             </div>
                           </div>
                         </div>
-                    </div> --}}
+                    </div>
 
                     {{-- <p class="hidden sm:block mt-6 max-w-2xl  text-xl mx-auto text-center text-gray-700 text-md leading-relaxed md:mt-8 md:text-lg lg:mt-10 pointer-events-auto">RESPONSING THE METAVERSE ERA FOR FUTURE APPLIED TECHNOLOGY.</p> --}}
                     
