@@ -44,6 +44,11 @@
                        <span class="text-slate-600 xl:inline">ECONOMICS AND SOCIAL SCIENCE (ICAESS)</span>
                      </h1>
                     
+                     <h2 class="pt-4 text-2xl text-center tracking-tight font-extrabold text-gray-900 sm:text-xl md:text-2xl">
+                       Harmonizing Green Economy, Sustainable Development, and Digitalization for a Thriving Future
+                     </h2>
+                    
+                    
                     {{-- <div class="grid grid-cols-1 gap-4 m-8">
                         <div
                           class="items-center justify-center mx-auto"
@@ -170,7 +175,7 @@
             </div>
         </div>
 
-        <p class="sm:hidden px-4 text-center text-gray-700 text-md leading-relaxed">RESPONSING THE METAVERSE ERA FOR FUTURE APPLIED TECHNOLOGY.</p>
+        {{-- <p class="sm:hidden px-4 text-center text-gray-700 text-md leading-relaxed">RESPONSING THE METAVERSE ERA FOR FUTURE APPLIED TECHNOLOGY.</p> --}}
         
     
         {{-- <div class="sm:hidden px-4 flex mt-6 max-w-sm mx-auto flex-col justify-center items-center gap-4 sm:flex-row md:mt-8 lg:mt-10">
