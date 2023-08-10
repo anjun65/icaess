@@ -1,7 +1,7 @@
 <div class="py-10 relative bg-white overflow-hidden">
   <div class="max-w-7xl mx-auto">
     <section class="bg-white">
-        <div class="max-w-5xl px-6 py-16 mx-auto">
+        <div class="max-w-5xl px-6 pt-16 mx-auto">
             
             <h2 class="text-3xl font-semibold text-gray-800 uppercase text-justify">About the Conference</h2>
             <p class="mt-4 text-lg text-gray-600 text-justify">Who can deny the fact that the Metaverse is taking the world by storm? Ready or not, the metaverse will change the world right now, for the next decade. Every day, the Metaverse opens up new opportunities for collaboration and interaction.

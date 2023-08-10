@@ -1,5 +1,5 @@
 
-<div class="py-10 relative bg-white overflow-hidden">
+<div class="relative bg-white overflow-hidden">
   <div class="max-w-7xl mx-auto">
     <section class="bg-white">
         <div class="max-w-5xl px-6 py-16 mx-auto">
