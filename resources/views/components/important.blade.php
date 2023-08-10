@@ -3,7 +3,7 @@
   <div class="max-w-7xl mx-auto">
     <section class="bg-white">
         <div class="max-w-5xl px-6 py-16 mx-auto">
-            <div class="p-4 mb-4 rounded-lg shadow-sm  xl:mb-0">
+            <div class="p-4 mb-4 rounded-lg  xl:mb-0">
               <div class="flex items-center justify-between mb-4">
                 <h3 class="text-3xl font-semibold text-gray-800 uppercase text-justify">Important Dates</h3>
               </div>
