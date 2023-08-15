@@ -30,7 +30,7 @@ Route::get('/register', function () {
 
 Route::prefix('2022')->group(function () {
     Route::get('/', function () {
-    return view('welcome');
+        return view('welcome');
     })->name('home');
 
     Route::get('/technical-program-committe', function () {
