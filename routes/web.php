@@ -19,6 +19,14 @@ Route::get('/', function () {
 })->name('home-2023');
 
 
+Route::get('/login', function () {
+    return view('404');
+})->name('login-2023');
+
+Route::get('/register', function () {
+    return view('404');
+})->name('register-2023');
+
 
 Route::prefix('2022')->group(function () {
     Route::get('/', function () {
