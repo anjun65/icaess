@@ -21,11 +21,11 @@ Route::get('/', function () {
 
 Route::get('/login', function () {
     return view('404');
-})->name('login-2023');
+})->name('login');
 
 Route::get('/register', function () {
     return view('404');
-})->name('register-2023');
+})->name('register');
 
 
 Route::prefix('2022')->group(function () {
