@@ -48,7 +48,7 @@
                      </h1>
                     
                      <h2 class="pt-4 text-2xl text-center tracking-tight font-extrabold text-gray-900 sm:text-xl md:text-2xl">
-                       Harmonizing Green Economy, Sustainable Development, and Digitalization for a Thriving Future
+                       Harmonizing Green Economy, Sustainable<br/> Development, and Digitalization for a Thriving Future
                      </h2>
 
                      
