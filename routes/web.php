@@ -18,6 +18,13 @@ Route::get('/', function () {
     return view('home');
 })->name('home-2023');
 
+Route::get('/committees', function () {
+    return view('local-committes-2023');
+})->name('committees-2023');
+
+Route::get('/registration', function () {
+    return view('register-2023');
+})->name('register-2023');
 
 Route::get('/login', function () {
     return view('404');
