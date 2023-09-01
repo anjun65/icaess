@@ -6,7 +6,7 @@
                  <x-about2023/>
                  <x-important/>
                  <x-speaker-2023/>
-                <x-pricing2023/>
+                 <x-pricing2023/>
             </div>
         </div>
     </div>
