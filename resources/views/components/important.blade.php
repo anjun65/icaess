@@ -7,9 +7,9 @@
             
             <div class="w-full lg:w-1/2">
                 <h1 class="py-4 text-2xl font-extrabold text-gray-800">Submission Type: Full Paper</h1>
-                <p class="py-4 text-base text-gray-800">Please download the template paper here: <a href="doc/EAI-Proceedings-DOCX-Template_2023_Oke_ICAESS.docx"><b>EAI-Proceedings-DOCX-Template_2023_Oke_ICAESS.docx</b></a>
+                    <p class="py-4 text-base text-gray-800">Please download the template paper here: <a href="doc/EAI-Proceedings-DOCX-Template_2023_Oke_ICAE.docx"><b>EAI-Proceedings-DOCX-Template_2023_Oke_ICAE.docx</b></a>
     
-                    <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION FULL PAPER/POSTER</b> via <b><a href="https://edas.info/newPaper.php?c=31355" target="_blank" >EDAS <span aria-hidden="true">→</span></a> </b></p>
+                    <p class="py-4 text-base text-gray-800"><b>ONLINE SUBMISSION FULL PAPER/POSTER</b> via <b><a href="https://edas.info/newPaper.php?c=31409" target="_blank" >EDAS <span aria-hidden="true">→</span></a> </b></p>
                     
                     <img src="img/edas.png" alt="" class="h-16 w-auto mb-4"/>
                     
@@ -35,33 +35,7 @@
                                 </div>
                             </td>
                             <td class="p-6">
-                                <p class="text-sm font-medium leading-none text-gray-800"><s>31 August 2023</s><br/>17 September 2023</p>
-                            </td>
-                        </tr>
-
-                        <tr tabindex="0" class="focus:outline-none h-20 text-sm leading-none text-gray-800 hover:bg-gray-100 border-b border-t border-gray-100">
-                            <td class="pl-4 cursor-pointer">
-                                <div class="flex items-center">
-                                    <div>
-                                        <p class="font-medium">Registration and Payment</p>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="p-6">
-                                <p class="text-sm font-medium leading-none text-gray-800"><s>30 September 2023</s><br/> 1 October 2023</p>
-                            </td>
-                        </tr>
-
-                        <tr tabindex="0" class="focus:outline-none h-20 text-sm leading-none text-gray-800 hover:bg-gray-100 border-b border-t border-gray-100">
-                            <td class="pl-4 cursor-pointer">
-                                <div class="flex items-center">
-                                    <div>
-                                        <p class="font-medium">Camera Ready and Final Revision</p>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="p-6">
-                                <p class="text-sm font-medium leading-none text-gray-800">6 October 2023</p>
+                                <p class="text-sm font-medium leading-none text-gray-800"><s>31 August 2023</s><br/><s>17 September 2023</s><br/>30 September 2023</p>
                             </td>
                         </tr>
 
@@ -87,7 +61,7 @@
                                 </div>
                             </td>
                             <td class="p-6">
-                                <p class="text-sm font-medium leading-none text-gray-800">7-8 November 2023</p>
+                                <p class="text-sm font-medium leading-none text-gray-800">7 November 2023</p>
                             </td>
                         </tr>
                     </tbody>
