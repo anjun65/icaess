@@ -38,6 +38,31 @@ Route::get('/register', function () {
     return view('404');
 })->name('register');
 
+Route::middleware([
+        'auth:sanctum',
+        config('jetstream.auth_session'),
+        'verified'
+    ])->group(function () {
+        Route::get('/dashboard', function () {
+            return view('dashboard');
+        })->name('dashboard');
+    });
+
+
+    Route::middleware([
+        'admin',
+        config('jetstream.auth_session'),
+        'verified'
+    ])->group(function () {
+        Route::get('admin/dashboard', function () {
+            return view('admin');
+        })->name('admin');
+
+        Route::get('admin/users', function () {
+            return view('users');
+        })->name('users');
+    });
+
 
 Route::prefix('2022')->group(function () {
     Route::get('/', function () {
@@ -64,28 +89,4 @@ Route::prefix('2022')->group(function () {
         return view('registration');
     })->name('registration');
 
-    Route::middleware([
-        'auth:sanctum',
-        config('jetstream.auth_session'),
-        'verified'
-    ])->group(function () {
-        Route::get('/dashboard', function () {
-            return view('dashboard');
-        })->name('dashboard');
-    });
-
-
-    Route::middleware([
-        'admin',
-        config('jetstream.auth_session'),
-        'verified'
-    ])->group(function () {
-        Route::get('admin/dashboard', function () {
-            return view('admin');
-        })->name('admin');
-
-        Route::get('admin/users', function () {
-            return view('users');
-        })->name('users');
-    });
 });

@@ -10,17 +10,17 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@icae.polibatam" />
-        <meta name="description" content="The 6TH International Conference On Applied Engineerring (ICAE)">
-        <meta name="keywords" content="Conference, Journal, Mechanical Sciences, Transportation Systems, IoT Devices, Real-Time Data Communications, AI, AR, VR, Blockchain">
-        <meta name="author" content="ICAE Polibatam" />
+        <meta name="twitter:site" content="@icaess.polibatam" />
+        <meta name="description" content="The 5TH International Conference On Applied Economincs And Social (ICAESS)">
+        <meta name="keywords" content="Conference, Journal, Economic Development, Auditing, Development Studies, International Business, Trading and e-Commerce">
+        <meta name="author" content="ICAESS Polibatam" />
         <meta image="{{ asset('img/logo_wh.png') }}">
         <meta property="og:type" content="article">
         <meta property="og:image" content="{{ asset('img/logo_wh.png') }}">
-        <meta property="og:title" content="The 6TH International Conference On Applied Engineerring (ICAE)">
-        <meta property="og:site_name" content="Polibatam Cyber Team">
+        <meta property="og:title" content="The 5TH International Conference On Applied Economincs And Social (ICAESS)">
+        <meta property="og:site_name" content="ICAESS Polibatam">
         <meta property="og:url" content="{{ route('home') }}">
-        <meta property="og:description" content="The 6TH International Conference On Applied Engineerring (ICAE)">
+        <meta property="og:description" content="The 5TH International Conference On Applied Economincs And Social (ICAESS)">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
