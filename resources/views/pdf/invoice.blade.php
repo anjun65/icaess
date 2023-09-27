@@ -14,13 +14,13 @@
         <tr>
             <td>
                 From<br/>
-                <b>ICAESS 2022</b><br/>
+                <b>ICAESS 2023</b><br/>
                 Jl. Ahmad Yani Batam Kota<br/>
                 Kota Batam, Kepulauan Riau<br/>
                 Indonesia<br/>
                 Phone: +62-778-469858<br/>
                 Ext.1017<br/>
-                Email: icae@polibatam.ac.id
+                Email: icaess@polibatam.ac.id
             </td>
             <td>
                 To<br/>
@@ -160,6 +160,12 @@
                         USD
                     @endif
                     {{ $item->nominal_transfer }}
+                    @if($item->verification_status == 'Approved')
+                        <br/>
+                        <img src="img/icaess-stempel.jpg" class="w-auto" style="height: 80px">
+                        <br/>
+                        Panitia ICAESS 2023
+                    @endif
                 </td>
             </tr>
         </tbody>
