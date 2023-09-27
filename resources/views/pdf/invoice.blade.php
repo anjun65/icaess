@@ -136,8 +136,7 @@
         <tbody>
             <tr>
                 <td rowspan="2">
-                    This is Computer generated document.<br/>
-                    No Signatured Needed
+                    <i>This is Computer generated document.</i><br/>
                 </td>
                 <td>
                     Subtotal: 
@@ -162,9 +161,11 @@
                     {{ $item->nominal_transfer }}
                     @if($item->verification_status == 'Approved')
                         <br/>
-                        <img src="img/icaess-stempel.jpg" class="w-auto" style="height: 80px">
+                        <img src="img/icaess-stempel.png" class="ml-1 mt-3 w-auto position-absolute" style="height: 80px">
                         <br/>
-                        Panitia ICAESS 2023
+                        <img src="img/ttd-bendahara.png" class="w-auto" style="height: 80px">
+                        <br/>
+                        Bendahara ICAESS 2023
                     @endif
                 </td>
             </tr>
