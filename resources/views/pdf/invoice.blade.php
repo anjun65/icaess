@@ -135,7 +135,7 @@
     <table class="table table-striped">
         <tbody>
             <tr>
-                <td rowspan="2">
+                <td>
                     <i>This is Computer generated document.</i><br/>
                 </td>
                 <td>
@@ -150,6 +150,7 @@
                 </td>
             </tr>
             <tr>
+                <td></td>
                 <td>
                     Total: 
                     @if ($item->user->roles == 'Indonesia Reguler' || $item->user->roles == 'Indonesia Student' || $item->user->roles == 'Poster Reguler' || $item->user->roles =='Poster Student' )
