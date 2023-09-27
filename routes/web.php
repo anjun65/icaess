@@ -30,14 +30,6 @@ Route::get('/registration', function () {
     return view('register-2023');
 })->name('register-2023');
 
-Route::get('/login', function () {
-    return view('404');
-})->name('login');
-
-Route::get('/register', function () {
-    return view('404');
-})->name('register');
-
 Route::middleware([
         'auth:sanctum',
         config('jetstream.auth_session'),
