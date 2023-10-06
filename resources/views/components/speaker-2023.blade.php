@@ -9,7 +9,7 @@
                   <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
                     <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="{{ asset('img/speaker/Naly Rakoto, Ph.D, HDR.jpg') }}" alt="Speaker">
                     <h1 class="text-lg text-gray-700">Naly Rakoto, Ph.D, HDR</h1><br/>
-                    <h3 class="text-sm text-gray-400 ">Co-Program Director of Management & Optimization of Supply Chains & Transport at IMT Atlatique France</h3>
+                    <h3 class="text-sm text-gray-400 ">Co-Program Director of Management & Optimization of Supply Chains & Transport at IMT Atlantique France</h3>
 
                   </div>
                 </div>
